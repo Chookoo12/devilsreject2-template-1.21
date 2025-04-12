@@ -1,0 +1,16 @@
+{
+  "item.devilsreject2.question_mark": "?",
+  "tooltip.devilsreject2.question_mark.tooltip": "See the bigger pict§c???§r.",
+  "item.devilsreject2.blazing_prongs": "Blazing Prongs",
+  "tooltip.devilsreject2.blazing_prongs.tooltip": "§cHeat radiates the prongs§r.",
+  "item.devilsreject2.mysterious_shaft": "Mysterious Shaft",
+  "tooltip.devilsreject2.mysterious_shaft.tooltip": "You feel as if power is radiating around the shaft.",
+
+  "block.devilsreject2.question_mark_block": "??",
+  "tooltip.devilsreject2.question_mark_block.tooltip": "§dUnstable.§r",
+  "block.devilsreject2.question_mark_block2": "???",
+  "tooltip.devilsreject2.question_mark_block2.tooltip": "This block is unbreakable and §c???§r.",
+
+  "itemgroup.devilsreject2.devils_reject_items": "Devils Reject Items",
+  "itemgroup.devilsreject2.devils_reject_blocks": "Devils Reject Blocks"
+}

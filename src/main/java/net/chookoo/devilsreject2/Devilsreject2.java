@@ -1,5 +1,8 @@
 package net.chookoo.devilsreject2;
 
+import net.chookoo.devilsreject2.block.ModBlocks;
+import net.chookoo.devilsreject2.item.ModItemGroups;
+import net.chookoo.devilsreject2.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,10 @@ public class Devilsreject2 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "devilsreject2:block/question_mark_block2"
+  }
+}

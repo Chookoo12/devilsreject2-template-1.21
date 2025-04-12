@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "devilsreject2:question_mark_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "devilsreject2:question_mark"
+  }
+}

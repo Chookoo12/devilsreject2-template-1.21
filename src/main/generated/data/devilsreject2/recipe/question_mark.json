@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:magenta_banner"
+    },
+    "B": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "C": {
+      "item": "minecraft:globe_banner_pattern"
+    },
+    "D": {
+      "item": "minecraft:flow_banner_pattern"
+    },
+    "E": {
+      "item": "minecraft:skull_banner_pattern"
+    },
+    "F": {
+      "item": "minecraft:guster_banner_pattern"
+    },
+    "G": {
+      "item": "minecraft:flower_banner_pattern"
+    },
+    "H": {
+      "item": "minecraft:creeper_banner_pattern"
+    },
+    "I": {
+      "item": "minecraft:black_banner"
+    }
+  },
+  "pattern": [
+    "EBC",
+    "DAF",
+    "GIH"
+  ],
+  "result": {
+    "count": 32,
+    "id": "devilsreject2:question_mark"
+  }
+}

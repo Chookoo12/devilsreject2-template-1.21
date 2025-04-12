@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "Q": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QQQ",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilsreject2:blazing_prongs"
+  }
+}

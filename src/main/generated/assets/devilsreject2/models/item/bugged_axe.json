@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "devilsreject2:item/bugged_axe"
+  }
+}

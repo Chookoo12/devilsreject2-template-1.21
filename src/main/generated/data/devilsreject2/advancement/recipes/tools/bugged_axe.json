@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_question_mark_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "devilsreject2:question_mark_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "devilsreject2:bugged_axe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_question_mark_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "devilsreject2:bugged_axe"
+    ]
+  }
+}

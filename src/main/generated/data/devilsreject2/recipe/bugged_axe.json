@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Q": {
+      "item": "devilsreject2:question_mark_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "QN ",
+    "QS ",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilsreject2:bugged_axe"
+  }
+}

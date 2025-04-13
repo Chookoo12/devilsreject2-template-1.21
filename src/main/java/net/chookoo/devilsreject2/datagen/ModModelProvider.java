@@ -24,5 +24,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MYSTERIOUS_SHAFT, Models.GENERATED);
         itemModelGenerator.register(ModItems.QUESTION_MARK, Models.GENERATED);
         itemModelGenerator.register(ModItems.BLAZING_PRONGS, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.BUGGED_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BUGGED_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BUGGED_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BUGGED_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BUGGED_HOE, Models.HANDHELD);
     }
 }

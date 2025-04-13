@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -55,6 +56,56 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK2), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK2))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BUGGED_SWORD)
+                .pattern(" Q ")
+                .pattern(" N ")
+                .pattern(" S ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('S', Items.STICK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BUGGED_PICKAXE)
+                .pattern("QNQ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('S', Items.STICK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BUGGED_AXE)
+                .pattern("QN ")
+                .pattern("QS ")
+                .pattern(" S ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('S', Items.STICK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BUGGED_SHOVEL)
+                .pattern(" Q ")
+                .pattern(" S ")
+                .pattern(" N ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('S', Items.STICK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BUGGED_HOE)
+                .pattern("QN ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('S', Items.STICK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BLAZING_PRONGS)
                 .pattern("QQQ")
                 .pattern("QQQ")
@@ -68,5 +119,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ModBlocks.QUESTION_MARK_BLOCK)
                 .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
                 .offerTo(exporter, Identifier.of(Devilsreject2.MOD_ID, "question_mark_from_question_mark_block"));
+
     }
 }

@@ -12,6 +12,11 @@
   "item.devilsreject2.bugged_shovel": "Bugged Shovel",
   "item.devilsreject2.bugged_hoe": "Bugged Hoe",
 
+  "item.devilsreject2.bugged_helmet": "Bugged Helmet",
+  "item.devilsreject2.bugged_chestplate": "Bugged Chestplate",
+  "item.devilsreject2.bugged_leggings": "Bugged Leggings",
+  "item.devilsreject2.bugged_boots": "Bugged Boots",
+
   "block.devilsreject2.question_mark_block": "??",
   "tooltip.devilsreject2.question_mark_block.tooltip": "§dUnstable.§r",
   "block.devilsreject2.question_mark_block2": "???",

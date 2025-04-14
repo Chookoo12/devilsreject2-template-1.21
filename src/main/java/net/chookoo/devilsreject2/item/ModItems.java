@@ -50,6 +50,20 @@ public class ModItems {
             new HoeItem(ModToolMaterials.BUGGED, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.BUGGED,0, -3f))));
 
+    public static final Item BUGGED_HELMET = registerItem("bugged_helmet",
+            new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
+    public static final Item BUGGED_CHESTPLATE = registerItem("bugged_chestplate",
+            new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+    public static final Item BUGGED_LEGGINGS = registerItem("bugged_leggings",
+            new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+    public static final Item BUGGED_BOOTS = registerItem("bugged_boots",
+            new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Devilsreject2.MOD_ID, name), item);
     }

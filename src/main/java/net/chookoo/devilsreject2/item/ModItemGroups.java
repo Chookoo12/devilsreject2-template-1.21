@@ -26,6 +26,11 @@ public class ModItemGroups {
                         entries.add(ModItems.BUGGED_SHOVEL);
                         entries.add(ModItems.BUGGED_HOE);
 
+                        entries.add(ModItems.BUGGED_HELMET);
+                        entries.add(ModItems.BUGGED_CHESTPLATE);
+                        entries.add(ModItems.BUGGED_LEGGINGS);
+                        entries.add(ModItems.BUGGED_BOOTS);
+
                     }).build());
 
     public static final ItemGroup DEVILS_REJECT_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

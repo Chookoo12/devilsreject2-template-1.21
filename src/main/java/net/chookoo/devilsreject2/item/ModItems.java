@@ -1,6 +1,7 @@
 package net.chookoo.devilsreject2.item;
 
 import net.chookoo.devilsreject2.Devilsreject2;
+import net.chookoo.devilsreject2.item.custom.ModArmorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
@@ -52,16 +53,16 @@ public class ModItems {
 
     public static final Item BUGGED_HELMET = registerItem("bugged_helmet",
             new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(37))));
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(35))));
     public static final Item BUGGED_CHESTPLATE = registerItem("bugged_chestplate",
-            new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(37))));
+            new ModArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(35))));
     public static final Item BUGGED_LEGGINGS = registerItem("bugged_leggings",
             new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(37))));
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(35))));
     public static final Item BUGGED_BOOTS = registerItem("bugged_boots",
             new ArmorItem(ModArmorMaterials.BUGGED_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
-                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(37))));
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(35))));
 
 
     private static Item registerItem(String name, Item item) {

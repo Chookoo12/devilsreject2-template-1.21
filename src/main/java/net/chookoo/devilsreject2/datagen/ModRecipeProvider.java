@@ -106,6 +106,42 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
                 .offerTo(exporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BUGGED_HELMET)
+                .pattern("QNQ")
+                .pattern("Q Q")
+                .pattern("   ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BUGGED_CHESTPLATE)
+                .pattern("Q Q")
+                .pattern("QNQ")
+                .pattern("QQQ")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BUGGED_LEGGINGS)
+                .pattern("QNQ")
+                .pattern("Q Q")
+                .pattern("Q Q")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.BUGGED_BOOTS)
+                .pattern("   ")
+                .pattern("N N")
+                .pattern("Q Q")
+                .input('Q', ModBlocks.QUESTION_MARK_BLOCK)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion(hasItem(ModBlocks.QUESTION_MARK_BLOCK), conditionsFromItem(ModBlocks.QUESTION_MARK_BLOCK))
+                .offerTo(exporter);
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.BLAZING_PRONGS)
                 .pattern("QQQ")
                 .pattern("QQQ")

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "Q": {
+      "item": "devilsreject2:question_mark_block"
+    }
+  },
+  "pattern": [
+    "QNQ",
+    "Q Q",
+    "Q Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "devilsreject2:bugged_leggings"
+  }
+}

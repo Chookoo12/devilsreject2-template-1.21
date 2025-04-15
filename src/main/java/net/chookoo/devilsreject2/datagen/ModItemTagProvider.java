@@ -36,5 +36,18 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.BUGGED_CHESTPLATE)
                 .add(ModItems.BUGGED_LEGGINGS)
                 .add(ModItems.BUGGED_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(ModItems.BUGGED_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(ModItems.BUGGED_LEGGINGS);
+
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(ModItems.BUGGED_CHESTPLATE);
+
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(ModItems.BUGGED_HELMET);
+
     }
 }
